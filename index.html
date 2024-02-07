@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Zipper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="heap.js"></script>
+    <script src="huffman.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <header class="site-header">
+          <h1>File Zipper</h1>
+      </header>
+      <div class="container">
+          <form method="post" enctype="multipart/form-data" >
+              <label for="uploadedFile">Upload File</label>
+              <input type="file" id="uploadedFile" accept=".txt">
+          </form>
+          <div id="temptext"></div>
+        <div class="button-group">
+              <button id="encode">Encode</button>
+              <button id="decode">Decode</button>
+          </div>
+      </div>
+  </body>
+
+</html>
+
